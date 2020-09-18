@@ -13,4 +13,4 @@ class Hello(Resource):
 api.add_resource(Hello, "/hello")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
